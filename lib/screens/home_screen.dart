@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:fl_components/router/app_routes.dart';
 
 class HomeScreen extends StatelessWidget {
-  final menuOpts = AppRoutes.menuOptions;
-  HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({Key? key}) : super(key: key);
   
   @override
   Widget build(BuildContext context) {
+    final menuOpts = AppRoutes.menuOptions;
     return Scaffold(
       appBar: AppBar(
         title: const Text('Flutter Components'),
