@@ -14,11 +14,11 @@ class MyApp extends StatelessWidget {
       //home: const CardScreen(),
       initialRoute: 'home',
       routes: {
-        'home':(context) => const HomeScreen(),
-        'listview1': (context) => const ListView1Screen(), 
-        'listview2': (context) => const ListView2Screen(), 
-        'alert': (context) => const AlertScreen(), 
-        'Card': (context) => const CardScreen(), 
+        'home': (BuildContext context) => const HomeScreen(),
+        'listview1': (BuildContext context) => const ListView1Screen(), 
+        'listview2': (BuildContext context) => const ListView2Screen(), 
+        'alert': (BuildContext context) => const AlertScreen(), 
+        'Card': (BuildContext context) => const CardScreen(), 
       },
     );
   }
