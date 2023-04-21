@@ -14,6 +14,7 @@ class AppRoutes {
     MenuOption(route: 'alert',  name: 'Alert Screen', screen: const AlertScreen(), icon: Icons.notification_important_outlined),
     MenuOption(route: 'card',  name: 'Card Screen', screen: const CardScreen(), icon: Icons.credit_card),
     MenuOption(route: 'avatar',  name: 'Circle Avatar Screen', screen: const AvatarScreen(), icon: Icons.supervised_user_circle_outlined),
+    MenuOption(route: 'animated',  name: 'Animated Container Screen', screen: const AnimatedScreen(), icon: Icons.play_circle_outline_rounded),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
